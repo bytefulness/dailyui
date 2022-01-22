@@ -1,0 +1,7 @@
+.app {
+  width: min(90%, 1024px);
+  margin-inline: auto;
+  background: #fff;
+  padding: 120px;
+  border-radius: 36px;
+}
