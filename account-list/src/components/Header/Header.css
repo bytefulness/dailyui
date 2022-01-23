@@ -11,15 +11,20 @@ header {
 
 .search-icon {
   position: absolute;
-  width: 27px;
-  top: 0.85rem;
-  left: 0.75rem;
+  width: 40px;
+  height: 40px;
+  padding: 0.5rem;
+  top: 50%;
+  left: 0.25rem;
+  transform: translateY(-50%);
+  background: #fff;
 }
 
 .search-input {
   width: 100%;
   color: #8686ac;
-  padding: 0.85rem 1rem 0.85rem 3rem;
+  padding: 0.85rem 1rem 0.85rem 1rem;
+  text-indent: 2rem;
   border-radius: 8px;
   border: 1px solid #c5c5f8;
 }
