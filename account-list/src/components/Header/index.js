@@ -5,15 +5,16 @@ import "./Header.css";
 import bell from "../../images/bell.png";
 import search from "../../images/search.png";
 
-export default function Header() {
+export default function Header(props) {
   return (
     <header>
       <div className="header__search-box">
         <img className="search-icon" src={search} alt="" />
         <input
           className="search-input"
-          type="text"
+          type="search"
           placeholder="Find Account"
+          onChange={props.handleSearch}
         />
       </div>
       <img className="header__icon" src={bell} alt="" />

@@ -4,6 +4,7 @@
   background: #fff;
   padding: 120px;
   border-radius: 36px;
+  min-height: 70vh;
 }
 
 .button {
