@@ -1,4 +1,4 @@
-.header {
+.accounts__header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,10 +6,36 @@
   margin-bottom: 24px;
 }
 
-.header span {
+.accounts__header span {
   font-weight: 500;
 }
 
-.header span:nth-child(2) {
+.accounts__header span:nth-child(2) {
   margin-left: 160px;
+}
+
+.accounts-none {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: min(90%, 400px);
+  margin-inline: auto;
+}
+
+.accounts-none > * {
+  margin-bottom: 8px;
+}
+
+.none__image {
+  height: 300px;
+}
+
+.none__title {
+  line-height: 1.5rem;
+}
+
+.none__explanation {
+  margin-bottom: 16px;
 }
