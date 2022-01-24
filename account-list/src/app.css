@@ -5,3 +5,20 @@
   padding: 120px;
   border-radius: 36px;
 }
+
+.button {
+  display: inline-block;
+  background-color: #8598fc;
+  padding: 12px 60px;
+  border-radius: 12px;
+  font-weight: 500;
+}
+
+.button--primary {
+  background-color: #584fd8;
+  color: #fff;
+}
+
+.button--primary:hover {
+  background-color: #6259d6;
+}
